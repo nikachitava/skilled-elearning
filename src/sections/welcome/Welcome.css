@@ -1,0 +1,18 @@
+
+.welcome_section h1 {
+    font-size: 56px;
+    font-weight: bolder;
+    color: #13183F;
+}
+
+.welcome_section p {
+    font-size: 16px;
+    color: #83869A;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.welcome_section img {
+    display: block;
+    width: 100%;
+}
