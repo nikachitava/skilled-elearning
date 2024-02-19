@@ -1,12 +1,20 @@
+import GetStartedButton from "../GetStartedButton/GetStartedButton";
 import "./Footer.css";
-import logo_white from "../../../public/images/logo_white.svg";
+import logo_white from "/images/logo_white.svg";
 
 export const Footer = () => {
 	return (
 		<footer>
 			<div className="container">
 				<img src={logo_white} alt="logo" />
-				<a href="#">Get Started</a>
+				<GetStartedButton
+					background={false}
+					gradient={true}
+					gradientStartColor={"#4851FF"}
+					gradientFinishColor={"#F02AA6"}
+					backgroundColor={"#13183F"}
+					textColor={"white"}
+				/>
 			</div>
 		</footer>
 	);

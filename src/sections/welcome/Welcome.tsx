@@ -1,5 +1,5 @@
 import "./Welcome.css";
-import welcome_photo from "../../../public/images/welcome_photo.svg";
+import welcome_photo from "/images/welcome_photo.svg";
 import GetStartedButton from "../../components/GetStartedButton/GetStartedButton";
 
 export const Welcome = () => {
@@ -14,7 +14,9 @@ export const Welcome = () => {
 				<GetStartedButton
 					background={false}
 					gradient={true}
-					gradientColor="linear-gradient(#4851FF, #F02AA6)"
+					gradientStartColor={"#FF6F48"}
+					gradientFinishColor={"#F02AA6"}
+					backgroundColor={"#13183F"}
 					textColor={"white"}
 				/>
 			</div>

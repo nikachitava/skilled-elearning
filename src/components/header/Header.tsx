@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from "../../../public/images/logo.svg";
+import logo from "/images/logo.svg";
 import GetStartedButton from "../GetStartedButton/GetStartedButton";
 
 export const Header = () => {
@@ -9,6 +9,7 @@ export const Header = () => {
 				<img src={logo} alt="logo" />
 				<GetStartedButton
 					background={true}
+					gradient={true}
 					backgroundColor={"#13183F"}
 					textColor={"white"}
 				/>
