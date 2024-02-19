@@ -43,3 +43,15 @@
     color: #83869A;
     margin-bottom: 24px;
 }
+
+@media screen and (min-width: 768px) { 
+    .courses_section {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+@media screen and (min-width: 1440px) { 
+    .courses_section {
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
