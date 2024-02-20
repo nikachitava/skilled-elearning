@@ -1,11 +1,4 @@
-interface IGetStartedButtonProps {
-	background: boolean;
-	backgroundColor?: string;
-	gradient: boolean;
-	gradientStartColor?: string;
-	gradientFinishColor?: string;
-	textColor: string;
-}
+import { IGetStartedButtonProps } from "../../interfaces/IGetStartedButtonProps";
 
 const GetStartedButton: React.FC<IGetStartedButtonProps> = ({
 	background,

@@ -1,10 +1,5 @@
+import { ICourseCardProps } from "../../interfaces/ICourseCardsProps";
 import "./CourseCard.css";
-
-interface ICourseCardProps {
-	icon: JSX.Element;
-	title: string;
-	subTitle: string;
-}
 
 export const CourseCard: React.FC<ICourseCardProps> = ({
 	icon,
